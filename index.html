@@ -1,109 +1,986 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Privacy Policy – Instanly Mobile App</title>
+  <title>Politique de Confidentialité – Application Mobile Instanly</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; }
-    h1, h2, h3 { color: #1a1a1a; }
-    code { background: #f4f4f4; padding: 2px 4px; border-radius: 3px; }
-    ul { padding-left: 1.2em; }
-    li { margin-bottom: 0.5em; }
-    .section-icon { font-size: 1.3em; }
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+      line-height: 1.7; 
+      max-width: 900px; 
+      margin: auto; 
+      padding: 30px; 
+      color: #333;
+      background: #fafafa;
+    }
+    .container {
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    h1 { 
+      color: #1a73e8; 
+      font-size: 2.2em; 
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    h2 { 
+      color: #1a73e8; 
+      font-size: 1.4em; 
+      margin-top: 35px; 
+      margin-bottom: 15px;
+      border-left: 4px solid #1a73e8;
+      padding-left: 15px;
+    }
+    h3 { 
+      color: #444; 
+      font-size: 1.2em; 
+      margin-top: 25px; 
+      margin-bottom: 10px;
+    }
+    .last-updated {
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 30px;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 6px;
+    }
+    code { 
+      background: #f4f4f4; 
+      padding: 3px 6px; 
+      border-radius: 4px; 
+      font-family: 'Courier New', monospace;
+    }
+    ul, ol { 
+      padding-left: 1.5em; 
+    }
+    li { 
+      margin-bottom: 8px; 
+    }
+    .section-icon { 
+      font-size: 1.4em; 
+      margin-right: 8px;
+    }
+    .important-notice {
+      background: #fff3cd;
+      border: 1px solid #ffeaa7;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 25px 0;
+    }
+    .contact-box {
+      background: #e3f2fd;
+      border: 1px solid #90caf9;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 25px 0;
+    }
+    .footer-links {
+      margin-top: 50px;
+      padding-top: 30px;
+      border-top: 2px solid #eee;
+      text-align: center;
+    }
+    .footer-links h3 {
+      color: #1a73e8;
+      margin-bottom: 20px;
+    }
+    .footer-links a {
+      display: inline-block;
+      margin: 8px 15px;
+      padding: 10px 20px;
+      background: #1a73e8;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+    .footer-links a:hover {
+      background: #1557b0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background: #f8f9fa;
+      font-weight: bold;
+    }
+    .data-category {
+      background: #f8f9fa;
+      padding: 15px;
+      border-radius: 6px;
+      margin: 15px 0;
+    }
   </style>
 </head>
 <body>
 
-<h1>Privacy Policy – Instanly Mobile App</h1>
-<p><strong>Last updated:</strong> June 30, 2025</p>
+<div class="container">
 
-<p>Instanly SARL (“we”, “our”, “us”) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share your information when you use our mobile app for instant money transfer interoperability across African mobile wallets.</p>
+<h1>Politique de Confidentialité</h1>
+<h2 style="text-align: center; border: none; color: #666; font-size: 1.1em;">Application Mobile Instanly</h2>
 
-<h2><span class="section-icon">🔐</span> 1. Who We Are</h2>
-<p>Instanly is a <strong>technology service provider</strong>, not a financial institution. We do not hold user funds and do not provide wallets, accounts, or deposits. We serve solely as a <strong>proxy API layer</strong> that connects to licensed financial partners who execute the actual transfers. Funds are debited from the sender and instantly credited to the recipient via licensed providers.</p>
+<div class="last-updated">
+  <strong>Dernière mise à jour :</strong> 30 juin 2025<br>
+  <strong>Version :</strong> 3.0 | <strong>Entrée en vigueur :</strong> 1er juillet 2025
+</div>
 
-<h2><span class="section-icon">📋</span> 2. Data We Collect</h2>
-<p>To provide and improve our services in compliance with KYC/AML regulations, we collect:</p>
+<div class="important-notice">
+  <h3>🔒 Engagement de Confidentialité</h3>
+  <p><strong>Instanly SARL</strong> ("nous", "notre", "nos") s'engage fermement à protéger votre vie privée et vos données personnelles. Cette Politique de Confidentialité détaille de manière transparente comment nous collectons, utilisons, stockons et protégeons vos informations lors de l'utilisation de notre application mobile pour les transferts d'argent instantanés et l'interopérabilité entre portefeuilles mobiles africains.</p>
+</div>
+
+<h2><span class="section-icon">🏢</span>1. Identification et Statut Légal de l'Entité</h2>
+
+<h3>1.1 Identité de l'Entreprise</h3>
 <ul>
-  <li><strong>Identity information:</strong> Full name, date of birth, national ID/passport.</li>
-  <li><strong>Contact information:</strong> Phone number, email address, device ID.</li>
-  <li><strong>Transaction information:</strong> Transfer amount, beneficiary info, timestamps.</li>
-  <li><strong>Technical information:</strong> IP address, country and language, cookies, session data, device OS, model, logs.</li>
-  <li><strong>Analytics data:</strong> via Firebase Analytics (non-identifiable usage patterns).</li>
+  <li><strong>Dénomination sociale :</strong> Instanly SARL (Société à Responsabilité Limitée)</li>
+  <li><strong>RCCM :</strong> CI-ABJ-03-2022-B12-00621</li>
+  <li><strong>Siège social :</strong> Riviera 3, Boulevard Latrille, Abidjan, Côte d'Ivoire</li>
+  <li><strong>Capital social :</strong> 1.000.000 FCFA</li>
+  <li><strong>Dirigeant :</strong> Monsieur Juste THALES, Gérant</li>
+  <li><strong>Téléphone :</strong> +225 01 51 09 26 27</li>
+  <li><strong>Email corporatif :</strong> contact@instanly.com</li>
+  <li><strong>Site web :</strong> https://instanly.com</li>
 </ul>
 
-<h2><span class="section-icon">⚙️</span> 3. Why We Collect Your Data</h2>
-<p>We process your data strictly for:</p>
+<h3>1.2 Juridictions d'Exploitation</h3>
 <ul>
-  <li>Executing money transfers securely and instantly.</li>
-  <li>Performing identity verification (KYC).</li>
-  <li>Fraud prevention and compliance with regulations.</li>
-  <li>Providing transaction receipts and support.</li>
-  <li>Monitoring app performance and usage analytics.</li>
-</ul>
-<p>We do not use your data for marketing or profiling purposes.</p>
-
-<h2><span class="section-icon">🔐</span> 4. Data Security</h2>
-<p>We take appropriate organizational and technical measures to protect your data, including:</p>
-<ul>
-  <li>Encrypted transmission (HTTPS/TLS).</li>
-  <li>Encrypted data at rest.</li>
-  <li>Secure access controls for staff.</li>
-  <li>Regular audits and monitoring.</li>
+  <li><strong>Juridiction principale :</strong> République de Côte d'Ivoire</li>
+  <li><strong>Juridictions secondaires :</strong> États-Unis d'Amérique (services cloud)</li>
+  <li><strong>Marchés cibles :</strong> 35+ pays africains</li>
+  <li><strong>Conformité réglementaire :</strong> BCEAO, UMOA, FDA (USA), RGPD (UE)</li>
 </ul>
 
-<h2><span class="section-icon">🌍</span> 5. Data Storage and Transfers</h2>
-<p>We may store or process your data in countries where our partners operate or where our servers are hosted. All data transfers comply with applicable data protection laws and include safeguards to protect your rights.</p>
+<h3>1.3 Nature de nos Services</h3>
+<div class="important-notice">
+  <p><strong>⚠️ IMPORTANTE CLARIFICATION :</strong> Instanly est un <strong>fournisseur de services technologiques</strong> et NON une institution financière. Nous ne détenons jamais les fonds des utilisateurs et ne fournissons pas de portefeuilles, comptes ou services de dépôt. Nous agissons exclusivement comme une <strong>couche d'interopérabilité API</strong> qui connecte les utilisateurs aux partenaires financiers agréés qui exécutent les transferts réels. Les fonds sont débités de l'expéditeur et instantanément crédités au destinataire via des prestataires licenciés.</p>
+</div>
 
-<h2><span class="section-icon">👮</span> 6. Who We Share Your Data With</h2>
-<p>We only share your data with:</p>
+<h2><span class="section-icon">📋</span>2. Données Personnelles Collectées</h2>
+
+<p>Pour fournir et améliorer nos services en conformité avec les réglementations KYC/AML et les exigences de sécurité, nous collectons les catégories de données personnelles suivantes :</p>
+
+<div class="data-category">
+  <h3>2.1 Données d'Identification et KYC</h3>
+  <ul>
+    <li><strong>Nom complet :</strong> Prénom(s) et nom(s) de famille</li>
+    <li><strong>Date de naissance :</strong> Pour vérification d'âge et conformité</li>
+    <li><strong>Pièce d'identité :</strong> Numéro et photo de carte d'identité nationale, passeport ou permis de conduire</li>
+    <li><strong>Nationalité :</strong> Pays de citoyenneté</li>
+    <li><strong>Adresse de résidence :</strong> Adresse postale complète</li>
+    <li><strong>Profession :</strong> Activité professionnelle déclarée</li>
+    <li><strong>Revenus estimés :</strong> Niveau de revenus pour évaluation des risques</li>
+  </ul>
+</div>
+
+<div class="data-category">
+  <h3>2.2 Données de Contact et Communication</h3>
+  <ul>
+    <li><strong>Numéro de téléphone :</strong> Numéro principal et numéros secondaires</li>
+    <li><strong>Adresse email :</strong> Adresse principale et adresses de récupération</li>
+    <li><strong>Préférences de communication :</strong> Choix de canaux (SMS, email, push, WhatsApp)</li>
+    <li><strong>Langue préférée :</strong> Français, anglais ou langues locales</li>
+    <li><strong>Fuseau horaire :</strong> Pour optimiser les notifications</li>
+  </ul>
+</div>
+
+<div class="data-category">
+  <h3>2.3 Données Transactionnelles et Financières</h3>
+  <ul>
+    <li><strong>Historique des transferts :</strong> Montants, destinataires, dates, statuts</li>
+    <li><strong>Informations sur les bénéficiaires :</strong> Noms, numéros de téléphone, relations</li>
+    <li><strong>Méthodes de paiement :</strong> Portefeuilles mobiles utilisés et préférés</li>
+    <li><strong>Commissions et frais :</strong> Calculs et applications des tarifs</li>
+    <li><strong>Codes de référence :</strong> Identifiants uniques des transactions</li>
+    <li><strong>Motifs de transfert :</strong> Raisons déclarées (famille, business, etc.)</li>
+    <li><strong>Géolocalisation des transactions :</strong> Pays d'origine et de destination</li>
+  </ul>
+</div>
+
+<div class="data-category">
+  <h3>2.4 Données Techniques et d'Utilisation</h3>
+  <ul>
+    <li><strong>Informations de l'appareil :</strong> Modèle, OS, version, RAM, stockage</li>
+    <li><strong>Identifiants uniques :</strong> Device ID, Advertising ID, UUID</li>
+    <li><strong>Adresse IP :</strong> IPv4/IPv6 pour géolocalisation et sécurité</li>
+    <li><strong>Données de session :</strong> Durée, pages visitées, actions effectuées</li>
+    <li><strong>Journaux d'activité :</strong> Logs de connexion, erreurs, crashs</li>
+    <li><strong>Données de performance :</strong> Temps de réponse, latence réseau</li>
+    <li><strong>Préférences utilisateur :</strong> Paramètres, personnalisations, favoris</li>
+  </ul>
+</div>
+
+<div class="data-category">
+  <h3>2.5 Données Biométriques et de Sécurité</h3>
+  <ul>
+    <li><strong>Empreintes digitales :</strong> Hash cryptographique (jamais l'empreinte réelle)</li>
+    <li><strong>Reconnaissance faciale :</strong> Templates mathématiques uniquement</li>
+    <li><strong>Reconnaissance vocale :</strong> Patterns vocaux pour authentification</li>
+    <li><strong>Codes PIN et mots de passe :</strong> Stockés avec chiffrement BCrypt</li>
+    <li><strong>Jetons d'authentification :</strong> JWT et tokens de session</li>
+    <li><strong>Certificats de sécurité :</strong> Clés publiques/privées</li>
+  </ul>
+</div>
+
+<div class="data-category">
+  <h3>2.6 Données Analytics et Comportementales</h3>
+  <ul>
+    <li><strong>Firebase Analytics :</strong> Événements d'usage anonymisés</li>
+    <li><strong>Patterns d'utilisation :</strong> Fréquence, horaires, préférences</li>
+    <li><strong>Parcours utilisateur :</strong> Navigation dans l'application</li>
+    <li><strong>Données A/B Testing :</strong> Tests d'interface et fonctionnalités</li>
+    <li><strong>Feedback utilisateur :</strong> Évaluations, commentaires, suggestions</li>
+    <li><strong>Support client :</strong> Historique des conversations et tickets</li>
+  </ul>
+</div>
+
+<h2><span class="section-icon">⚙️</span>3. Finalités du Traitement des Données</h2>
+
+<h3>3.1 Finalités Principales (Exécution du Contrat)</h3>
+<ol>
+  <li><strong>Exécution des transferts d'argent :</strong> Traitement sécurisé et instantané des transactions</li>
+  <li><strong>Vérification d'identité (KYC) :</strong> Conformité aux réglementations financières</li>
+  <li><strong>Prévention de la fraude :</strong> Détection et prévention des activités suspectes</li>
+  <li><strong>Support client :</strong> Assistance technique et résolution des problèmes</li>
+  <li><strong>Fourniture de reçus :</strong> Documentation des transactions</li>
+</ol>
+
+<h3>3.2 Finalités Secondaires (Intérêt Légitime)</h3>
+<ol>
+  <li><strong>Amélioration des services :</strong> Optimisation de l'expérience utilisateur</li>
+  <li><strong>Sécurisation de la plateforme :</strong> Protection contre les cyberattaques</li>
+  <li><strong>Analytics et statistiques :</strong> Analyse des tendances d'usage</li>
+  <li><strong>Développement de nouvelles fonctionnalités :</strong> Innovation produit</li>
+  <li><strong>Conformité réglementaire :</strong> Respect des obligations légales</li>
+</ol>
+
+<h3>3.3 Finalités avec Consentement Explicite</h3>
+<ol>
+  <li><strong>Marketing personnalisé :</strong> Offres adaptées aux préférences (OPT-IN uniquement)</li>
+  <li><strong>Programme de parrainage :</strong> Gestion des recommandations et bonus</li>
+  <li><strong>Notifications push :</strong> Alertes personnalisées sur les transactions</li>
+  <li><strong>Géolocalisation précise :</strong> Services basés sur la localisation</li>
+  <li><strong>Partage sur réseaux sociaux :</strong> Publication de succès et réalisations</li>
+</ol>
+
+<div class="important-notice">
+  <h3>🚫 Ce que nous ne faisons JAMAIS</h3>
+  <ul>
+    <li>Utiliser vos données à des fins de profilage publicitaire</li>
+    <li>Vendre vos données à des tiers</li>
+    <li>Partager vos données sans votre consentement explicite</li>
+    <li>Utiliser vos données biométriques à des fins commerciales</li>
+    <li>Accéder à vos données sans raison légitime</li>
+  </ul>
+</div>
+
+<h2><span class="section-icon">🔐</span>4. Sécurité et Protection des Données</h2>
+
+<h3>4.1 Mesures Techniques de Sécurité</h3>
+
+<table>
+  <tr>
+    <th>Domaine</th>
+    <th>Mesures Appliquées</th>
+    <th>Standards/Certifications</th>
+  </tr>
+  <tr>
+    <td><strong>Chiffrement en Transit</strong></td>
+    <td>TLS 1.3, Perfect Forward Secrecy</td>
+    <td>FIPS 140-2 Level 3</td>
+  </tr>
+  <tr>
+    <td><strong>Chiffrement au Repos</strong></td>
+    <td>AES-256-GCM, clés rotatives</td>
+    <td>FIPS 140-2 Level 4</td>
+  </tr>
+  <tr>
+    <td><strong>Authentification</strong></td>
+    <td>MFA, biométrie, JWT tokens</td>
+    <td>OATH TOTP/HOTP</td>
+  </tr>
+  <tr>
+    <td><strong>Infrastructure</strong></td>
+    <td>AWS/Azure sécurisés, WAF</td>
+    <td>SOC 2 Type II, ISO 27001</td>
+  </tr>
+  <tr>
+    <td><strong>Surveillance</strong></td>
+    <td>SIEM 24/7, détection anomalies</td>
+    <td>NIST Cybersecurity Framework</td>
+  </tr>
+</table>
+
+<h3>4.2 Mesures Organisationnelles</h3>
 <ul>
-  <li>Licensed financial institutions and mobile wallet providers to execute your transfers.</li>
-  <li>KYC and compliance service providers for identity verification.</li>
-  <li>Analytics platforms (e.g., Firebase Analytics, pseudonymized).</li>
+  <li><strong>Principe du moindre privilège :</strong> Accès minimal nécessaire</li>
+  <li><strong>Séparation des environnements :</strong> Production/test/développement isolés</li>
+  <li><strong>Formation sécurité :</strong> Personnel sensibilisé aux bonnes pratiques</li>
+  <li><strong>Audits réguliers :</strong> Évaluations trimestrielles par tiers externes</li>
+  <li><strong>Gestion des incidents :</strong> Procédures de réponse définies</li>
+  <li><strong>Sauvegarde sécurisée :</strong> Backups chiffrés et géo-répliqués</li>
 </ul>
-<p>We never sell or share your data with advertisers or third parties for marketing.</p>
 
-<h2><span class="section-icon">⚖️</span> 7. Your Rights</h2>
-<p>You have the right to:</p>
+<h3>4.3 Protection des Données Sensibles</h3>
+<div class="data-category">
+  <h4>Données Biométriques</h4>
+  <ul>
+    <li>Stockage en templates mathématiques uniquement</li>
+    <li>Impossible de reconstituer les données originales</li>
+    <li>Chiffrement AES-256 avec clés HSM</li>
+    <li>Accès restreint aux administrateurs autorisés</li>
+  </ul>
+</div>
+
+<div class="data-category">
+  <h4>Données Financières</h4>
+  <ul>
+    <li>Tokenisation des informations sensibles</li>
+    <li>Conformité PCI-DSS niveau 1</li>
+    <li>Audit trails complets et immutables</li>
+    <li>Chiffrement de bout en bout</li>
+  </ul>
+</div>
+
+<h2><span class="section-icon">🌍</span>5. Stockage et Transferts Internationaux de Données</h2>
+
+<h3>5.1 Localisation des Données</h3>
+
+<table>
+  <tr>
+    <th>Type de Données</th>
+    <th>Localisation Principale</th>
+    <th>Localisation Secondaire</th>
+    <th>Finalité</th>
+  </tr>
+  <tr>
+    <td>Données KYC/Identité</td>
+    <td>Côte d'Ivoire (Data Center ORANGE)</td>
+    <td>France (OVH)</td>
+    <td>Conformité locale + Backup</td>
+  </tr>
+  <tr>
+    <td>Données Transactionnelles</td>
+    <td>Multi-région Afrique</td>
+    <td>Europe (AWS Frankfurt)</td>
+    <td>Performance + Redondance</td>
+  </tr>
+  <tr>
+    <td>Logs et Analytics</td>
+    <td>États-Unis (AWS)</td>
+    <td>Europe (AWS)</td>
+    <td>Traitement et analyse</td>
+  </tr>
+  <tr>
+    <td>Données Biométriques</td>
+    <td>Côte d'Ivoire uniquement</td>
+    <td>N/A</td>
+    <td>Protection maximale</td>
+  </tr>
+</table>
+
+<h3>5.2 Garanties pour Transferts Internationaux</h3>
 <ul>
-  <li>Access your personal data.</li>
-  <li>Request correction of inaccurate data.</li>
-  <li>Request deletion where applicable.</li>
-  <li>Withdraw consent (where applicable).</li>
-  <li>Request restriction or object to processing in certain cases.</li>
+  <li><strong>Clauses contractuelles types (CCT) :</strong> Conformes aux décisions d'adéquation UE</li>
+  <li><strong>Binding Corporate Rules (BCR) :</strong> Règles internes contraignantes</li>
+  <li><strong>Certification Privacy Shield :</strong> Niveau de protection équivalent</li>
+  <li><strong>Évaluation d'impact (EIPD) :</strong> Analyse des risques par juridiction</li>
+  <li><strong>Mécanismes de recours :</strong> Voies de réclamation dans chaque pays</li>
 </ul>
-<p>Contact: <a href="mailto:privacy@instanly.com">privacy@instanly.com</a> for requests.</p>
 
-<h2><span class="section-icon">🧾</span> 8. Legal Basis</h2>
-<p>Your data is processed:</p>
+<h3>5.3 Partenaires Cloud et Sous-traitants</h3>
+
+<table>
+  <tr>
+    <th>Partenaire</th>
+    <th>Service</th>
+    <th>Localisation</th>
+    <th>Certifications</th>
+  </tr>
+  <tr>
+    <td>Amazon Web Services</td>
+    <td>Infrastructure cloud</td>
+    <td>Multi-régions</td>
+    <td>SOC 1/2/3, ISO 27001, PCI-DSS</td>
+  </tr>
+  <tr>
+    <td>Google Firebase</td>
+    <td>Analytics, authentification</td>
+    <td>Europe, États-Unis</td>
+    <td>ISO 27001, SOC 2</td>
+  </tr>
+  <tr>
+    <td>Orange Business Services</td>
+    <td>Data Center Côte d'Ivoire</td>
+    <td>Abidjan, CI</td>
+    <td>ISO 27001, Tier III</td>
+  </tr>
+  <tr>
+    <td>OVH</td>
+    <td>Backup Europe</td>
+    <td>Roubaix, France</td>
+    <td>ISO 27001, HDS</td>
+  </tr>
+</table>
+
+<h2><span class="section-icon">👮</span>6. Partage des Données avec des Tiers</h2>
+
+<h3>6.1 Partenaires Financiers Agréés (Nécessité Contractuelle)</h3>
+<div class="data-category">
+  <h4>Prestataires de Services de Paiement (PSP)</h4>
+  <ul>
+    <li><strong>MTN Mobile Money :</strong> Exécution des transferts MTN</li>
+    <li><strong>Orange Money :</strong> Traitement des paiements Orange</li>
+    <li><strong>Moov Money :</strong> Gestion des transactions Moov</li>
+    <li><strong>Wave :</strong> Intégration API pour transferts Wave</li>
+    <li><strong>M-Pesa (Safaricom) :</strong> Transactions Kenya/Tanzanie</li>
+    <li><strong>Airtel Money :</strong> Couverture multi-pays Airtel</li>
+  </ul>
+  <p><strong>Données partagées :</strong> Nom, numéro de téléphone, montant, référence de transaction</p>
+  <p><strong>Base légale :</strong> Exécution du contrat de transfert</p>
+</div>
+
+<div class="data-category">
+  <h4>Agrégateurs et Partenaires Techniques</h4>
+  <ul>
+    <li><strong>PAWAPAY :</strong> Plateforme d'agrégation multi-opérateurs</li>
+    <li><strong>HUB2 :</strong> Services d'interopérabilité UEMOA</li>
+    <li><strong>BUI :</strong> Solutions de paiement digital</li>
+    <li><strong>Flutterwave :</strong> Infrastructure de paiement Afrique</li>
+  </ul>
+  <p><strong>Données partagées :</strong> Informations transactionnelles minimales nécessaires</p>
+  <p><strong>Garanties :</strong> Accords de traitement des données, chiffrement bout-en-bout</p>
+</div>
+
+<h3>6.2 Prestataires KYC et Conformité</h3>
 <ul>
-  <li>On the basis of your explicit consent.</li>
-  <li>As necessary for contract execution (money transfer).</li>
-  <li>To comply with legal obligations (AML, fraud detection).</li>
+  <li><strong>Jumio :</strong> Vérification d'identité automatisée</li>
+  <li><strong>Onfido :</strong> Validation de documents d'identité</li>
+  <li><strong>Smile Identity :</strong> Spécialiste KYC Afrique</li>
+  <li><strong>Trulioo :</strong> Vérification d'identité globale</li>
+</ul>
+<p><strong>Données partagées :</strong> Documents d'identité, photos, données biographiques</p>
+<p><strong>Durée de conservation :</strong> Maximum 90 jours pour vérification</p>
+
+<h3>6.3 Autorités et Organismes de Régulation</h3>
+<div class="important-notice">
+  <h4>⚖️ Obligations Légales de Communication</h4>
+  <p>Nous pouvons être contraints de partager vos données avec :</p>
+  <ul>
+    <li><strong>BCEAO :</strong> Banque Centrale des États de l'Afrique de l'Ouest</li>
+    <li><strong>CENTIF-CI :</strong> Cellule Nationale de Traitement des Informations Financières</li>
+    <li><strong>Direction Générale des Impôts :</strong> Obligations fiscales</li>
+    <li><strong>Autorités judiciaires :</strong> Sur réquisition ou commission rogatoire</li>
+    <li><strong>INTERPOL/Police :</strong> Lutte contre le terrorisme et blanchiment</li>
+  </ul>
+  <p><strong>Notification :</strong> Vous serez informé sauf interdiction légale expresse</p>
+</div>
+
+<h3>6.4 Plateformes Analytics (Données Pseudonymisées)</h3>
+<ul>
+  <li><strong>Google Analytics :</strong> Analyse d'usage anonymisée</li>
+  <li><strong>Firebase Analytics :</strong> Métriques d'engagement</li>
+  <li><strong>Mixpanel :</strong> Événements utilisateur pseudonymisés</li>
+  <li><strong>Amplitude :</strong> Analyse de parcours utilisateur</li>
+</ul>
+<p><strong>Données partagées :</strong> Identifiants anonymes, événements d'usage, données techniques</p>
+<p><strong>Opt-out possible :</strong> Via les paramètres de l'application</p>
+
+<h2><span class="section-icon">⚖️</span>7. Vos Droits et Comment les Exercer</h2>
+
+<h3>7.1 Droits Fondamentaux (RGPD et Lois Nationales)</h3>
+
+<div class="data-category">
+  <h4>🔍 Droit d'Accès (Article 15 RGPD)</h4>
+  <ul>
+    <li>Obtenir une copie de toutes vos données personnelles</li>
+    <li>Connaître les finalités du traitement</li>
+    <li>Identifier les destinataires de vos données</li>
+    <li>Connaître la durée de conservation</li>
+    <li><strong>Délai de réponse :</strong> Maximum 30 jours</li>
+    <li><strong>Format :</strong> PDF sécurisé ou export JSON</li>
+  </ul>
+</div>
+
+<div class="data-category">
+  <h4>✏️ Droit de Rectification (Article 16 RGPD)</h4>
+  <ul>
+    <li>Corriger les données inexactes</li>
+    <li>Compléter les données incomplètes</li>
+    <li>Mettre à jour vos informations personnelles</li>
+    <li><strong>Mise en œuvre :</strong> Immédiate dans l'application</li>
+    <li><strong>Propagation :</strong> Notification automatique aux partenaires</li>
+  </ul>
+</div>
+
+<div class="data-category">
+  <h4>🗑️ Droit à l'Effacement / "Droit à l'Oubli" (Article 17 RGPD)</h4>
+  <ul>
+    <li>Suppression de vos données personnelles</li>
+    <li><strong>Conditions :</strong> Pas d'obligation légale de conservation</li>
+    <li><strong>Exceptions :</strong> Données transactionnelles (conservation 10 ans)</li>
+    <li><strong>Processus :</strong> Anonymisation des données non-supprimables</li>
+  </ul>
+</div>
+
+<div class="data-category">
+  <h4>🔒 Droit à la Limitation du Traitement (Article 18 RGPD)</h4>
+  <ul>
+    <li>Geler temporairement l'utilisation de vos données</li>
+    <li>Maintenir les données sans les traiter</li>
+    <li><strong>Cas d'application :</strong> Contestation de données, opposition au traitement</li>
+  </ul>
+</div>
+
+<div class="data-category">
+  <h4>📦 Droit à la Portabilité (Article 20 RGPD)</h4>
+  <ul>
+    <li>Récupérer vos données dans un format structuré</li>
+    <li>Transférer vos données vers un autre service</li>
+    <li><strong>Formats disponibles :</strong> JSON, CSV, XML</li>
+    <li><strong>Inclus :</strong> Profil, historique, préférences</li>
+  </ul>
+</div>
+
+<div class="data-category">
+  <h4>🚫 Droit d'Opposition (Article 21 RGPD)</h4>
+  <ul>
+    <li>S'opposer au traitement basé sur l'intérêt légitime</li>
+    <li>Refuser le marketing direct</li>
+    <li>Opt-out des analyses comportementales</li>
+    <li><strong>Effet :</strong> Arrêt immédiat du traitement concerné</li>
+  </ul>
+</div>
+
+<h3>7.2 Droits Spécifiques aux Données Biométriques</h3>
+<ul>
+  <li><strong>Consentement explicite requis :</strong> Activation manuelle obligatoire</li>
+  <li><strong>Révocation simple :</strong> Désactivation en un clic</li>
+  <li><strong>Suppression immédiate :</strong> Effacement définitif sur demande</li>
+  <li><strong>Pas de transfert :</strong> Stockage local uniquement</li>
 </ul>
 
-<h2><span class="section-icon">🏢</span> 9. Company Information</h2>
-<p>
-Instanly SARL<br>
-RCCM: CI-ABJ-03-2022-B12-00621<br>
-Headquarters: Riviera 3, Abidjan, Côte d’Ivoire<br>
-Operating jurisdictions: Côte d’Ivoire, United States<br>
-Contact: <a href="mailto:support@instanly.com">support@instanly.com</a>
-</p>
+<h3>7.3 Droits Spécifiques aux Mineurs (Moins de 18 ans)</h3>
+<div class="important-notice">
+  <h4>👶 Protection Renforcée des Mineurs</h4>
+  <ul>
+    <li><strong>Âge minimum :</strong> 16 ans avec autorisation parentale</li>
+    <li><strong>Consentement parental :</strong> Vérification obligatoire</li>
+    <li><strong>Données minimales :</strong> Collecte limitée au strict nécessaire</li>
+    <li><strong>Droit à l'effacement renforcé :</strong> Suppression prioritaire</li>
+    <li><strong>Pas de profilage :</strong> Analyses comportementales interdites</li>
+  </ul>
+</div>
 
-<h2><span class="section-icon">❗</span> 10. Important Disclaimer</h2>
-<p>Instanly is not a financial service provider, not a mobile wallet, and does not hold user funds. We act purely as an API interoperability layer. Licensed payment service providers (PSPs) are responsible for holding, debiting, and crediting funds under regulatory supervision.</p>
+<h3>7.4 Comment Exercer vos Droits</h3>
 
-<p><strong>Partner Logos and Trademarks:</strong> All logos and icons representing mobile money operators (MTN, Orange, Moov, M-Pesa, Airtel, etc.) used within the Instanly app and website are the property of their respective owners. They are displayed solely to indicate interoperability and compatibility with their services and do not imply ownership, partnership, or endorsement unless explicitly stated.</p>
+<div class="contact-box">
+  <h4>📧 Méthodes de Contact</h4>
+  <ul>
+    <li><strong>Email prioritaire :</strong> <a href="mailto:privacy@instanly.com">privacy@instanly.com</a></li>
+    <li><strong>Formulaire en ligne :</strong> <a href="https://instanly.com/privacy-request">instanly.com/privacy-request</a></li>
+    <li><strong>Dans l'application :</strong> Paramètres > Confidentialité > Mes Droits</li>
+    <li><strong>Courrier postal :</strong> DPO Instanly, Riviera 3, Abidjan, CI</li>
+    <li><strong>WhatsApp :</strong> +225 01 51 09 26 27 (option "Confidentialité")</li>
+  </ul>
+  
+  <h4>📋 Informations à Fournir</h4>
+  <ul>
+    <li>Nom complet et numéro de téléphone</li>
+    <li>Adresse email associée au compte</li>
+    <li>Description précise de la demande</li>
+    <li>Copie de pièce d'identité (pour vérification)</li>
+    <li>Motif de la demande (optionnel)</li>
+  </ul>
+  
+  <h4>⏱️ Délais de Traitement</h4>
+  <ul>
+    <li><strong>Accusé de réception :</strong> 48 heures maximum</li>
+    <li><strong>Traitement complet :</strong> 30 jours maximum</li>
+    <li><strong>Cas complexes :</strong> Extension possible de 60 jours (notification préalable)</li>
+    <li><strong>Demandes urgentes :</strong> Traitement prioritaire sous 7 jours</li>
+  </ul>
+</div>
 
-<h2><span class="section-icon">🔄</span> 11. Policy Updates</h2>
-<p>This privacy policy may be updated as we evolve. We will notify users of material changes through in-app notices or email. The latest version is always available in-app and at <a href="https://instanly.com/privacy">instanly.com/privacy</a>.</p>
+<h2><span class="section-icon">🧾</span>8. Base Légale du Traitement</h2>
 
-<h2><span class="section-icon">📩</span> Contact Us</h2>
-<p>If you have any questions or concerns about this policy, contact our Data Protection Officer:</p>
-<p><a href="mailto:privacy@instanly.com">privacy@instanly.com</a></p>
+<h3>8.1 Catégorisation par Base Légale</h3>
+
+<table>
+  <tr>
+    <th>Base Légale</th>
+    <th>Données Concernées</th>
+    <th>Finalités</th>
+    <th>Durée</th>
+  </tr>
+  <tr>
+    <td><strong>Consentement Explicite</strong></td>
+    <td>Données biométriques, géolocalisation précise</td>
+    <td>Authentification, services géolocalisés</td>
+    <td>Jusqu'à révocation</td>
+  </tr>
+  <tr>
+    <td><strong>Exécution du Contrat</strong></td>
+    <td>Identité, coordonnées, transactions</td>
+    <td>Transferts d'argent, support client</td>
+    <td>Durée du contrat + 5 ans</td>
+  </tr>
+  <tr>
+    <td><strong>Obligation Légale</strong></td>
+    <td>KYC, historique transactions</td>
+    <td>Conformité AML/CFT, fiscalité</td>
+    <td>10 ans minimum</td>
+  </tr>
+  <tr>
+    <td><strong>Intérêt Légitime</strong></td>
+    <td>Analytics, logs sécurité</td>
+    <td>Amélioration service, sécurité</td>
+    <td>3 ans maximum</td>
+  </tr>
+</table>
+
+<h3>8.2 Évaluation de l'Intérêt Légitime</h3>
+<p>Nous avons mené des évaluations d'impact (EIPD) pour chaque traitement basé sur l'intérêt légitime :</p>
+<ul>
+  <li><strong>Test de nécessité :</strong> Le traitement est-il nécessaire pour atteindre l'objectif ?</li>
+  <li><strong>Test de proportionnalité :</strong> Les moyens sont-ils proportionnés au but ?</li>
+  <li><strong>Test d'équilibre :</strong> Nos intérêts l'emportent-ils sur vos droits ?</li>
+</ul>
+
+<h2><span class="section-icon">⏰</span>9. Durée de Conservation des Données</h2>
+
+<h3>9.1 Calendrier de Conservation Détaillé</h3>
+
+<table>
+  <tr>
+    <th>Catégorie de Données</th>
+    <th>Conservation Active</th>
+    <th>Archivage Intermédiaire</th>
+    <th>Sort Final</th>
+  </tr>
+  <tr>
+    <td><strong>Données d'identification (KYC)</strong></td>
+    <td>Pendant la relation + 5 ans</td>
+    <td>5 ans supplémentaires</td>
+    <td>Suppression définitive</td>
+  </tr>
+  <tr>
+    <td><strong>Historique des transactions</strong></td>
+    <td>10 ans (obligation légale)</td>
+    <td>5 ans (archivage fiscal)</td>
+    <td>Anonymisation</td>
+  </tr>
+  <tr>
+    <td><strong>Données biométriques</strong></td>
+    <td>Pendant l'utilisation</td>
+    <td>Non applicable</td>
+    <td>Suppression à la désactivation</td>
+  </tr>
+  <tr>
+    <td><strong>Logs techniques</strong></td>
+    <td>3 ans</td>
+    <td>2 ans (sécurité)</td>
+    <td>Suppression définitive</td>
+  </tr>
+  <tr>
+    <td><strong>Données marketing</strong></td>
+    <td>3 ans après dernière interaction</td>
+    <td>Non applicable</td>
+    <td>Suppression définitive</td>
+  </tr>
+  <tr>
+    <td><strong>Support client</strong></td>
+    <td>3 ans après résolution</td>
+    <td>2 ans (amélioration)</td>
+    <td>Anonymisation</td>
+  </tr>
+</table>
+
+<h3>9.2 Processus de Purge Automatique</h3>
+<ul>
+  <li><strong>Révision mensuelle :</strong> Identification des données à supprimer</li>
+  <li><strong>Suppression sécurisée :</strong> Overwrite multiple + destruction physique</li>
+  <li><strong>Certification :</strong> Attestation de destruction par prestataires</li>
+  <li><strong>Logs d'audit :</strong> Traçabilité complète des suppressions</li>
+</ul>
+
+<h2><span class="section-icon">🔧</span>10. Cookies et Technologies de Suivi</h2>
+
+<h3>10.1 Types de Cookies Utilisés</h3>
+
+<div class="data-category">
+  <h4>🔒 Cookies Strictement Nécessaires (Exemptés de Consentement)</h4>
+  <ul>
+    <li><strong>Session ID :</strong> Maintien de la session utilisateur</li>
+    <li><strong>Token CSRF :</strong> Protection contre les attaques cross-site</li>
+    <li><strong>Paramètres de sécurité :</strong> Configuration de sécurité</li>
+    <li><strong>Durée :</strong> Session uniquement</li>
+  </ul>
+</div>
+
+<div class="data-category">
+  <h4>📊 Cookies de Performance (Consentement Requis)</h4>
+  <ul>
+    <li><strong>Google Analytics :</strong> _ga, _gat, _gid</li>
+    <li><strong>Firebase Performance :</strong> Métriques de performance</li>
+    <li><strong>Hotjar :</strong> Enregistrements de session (anonymisés)</li>
+    <li><strong>Durée :</strong> 2 ans maximum</li>
+  </ul>
+</div>
+
+<div class="data-category">
+  <h4>🎯 Cookies de Fonctionnalité (Consentement Requis)</h4>
+  <ul>
+    <li><strong>Préférences langue :</strong> Mémorisation de la langue</li>
+    <li><strong>Thème interface :</strong> Mode sombre/clair</li>
+    <li><strong>Favoris :</strong> Bénéficiaires fréquents</li>
+    <li><strong>Durée :</strong> 1 an maximum</li>
+  </ul>
+</div>
+
+<h3>10.2 Gestion des Consentements</h3>
+<ul>
+  <li><strong>Banner de consentement :</strong> Choix granulaire par catégorie</li>
+  <li><strong>Centre de préférences :</strong> Modification à tout moment</li>
+  <li><strong>Opt-out simplifié :</strong> Refus en un clic</li>
+  <li><strong>Respect du DNT :</strong> Honneur du signal "Do Not Track"</li>
+</ul>
+
+<h3>10.3 Technologies Alternatives</h3>
+<ul>
+  <li><strong>Local Storage :</strong> Stockage local des préférences</li>
+  <li><strong>Session Storage :</strong> Données temporaires de session</li>
+  <li><strong>IndexedDB :</strong> Base de données locale pour offline</li>
+  <li><strong>WebRTC :</strong> Communication temps réel (support client)</li>
+</ul>
+
+<h2><span class="section-icon">🚨</span>11. Gestion des Incidents et Violations de Données</h2>
+
+<h3>11.1 Procédure de Notification des Violations</h3>
+
+<div class="important-notice">
+  <h4>⚡ Plan de Réponse aux Incidents (24/7)</h4>
+  <ol>
+    <li><strong>Détection :</strong> Systèmes SIEM automatiques + monitoring humain</li>
+    <li><strong>Confinement :</strong> Isolation immédiate des systèmes affectés</li>
+    <li><strong>Évaluation :</strong> Classification du niveau de risque (1-4)</li>
+    <li><strong>Notification autorités :</strong> CNIL dans les 72 heures si risque élevé</li>
+    <li><strong>Notification utilisateurs :</strong> Dans les 72 heures si risque pour droits</li>
+    <li><strong>Remédiation :</strong> Correction des vulnérabilités</li>
+    <li><strong>Rapport final :</strong> Analyse post-incident et améliorations</li>
+  </ol>
+</div>
+
+<h3>11.2 Types d'Incidents Couverts</h3>
+<ul>
+  <li><strong>Accès non autorisé :</strong> Intrusion dans les systèmes</li>
+  <li><strong>Fuite de données :</strong> Exposition accidentelle d'informations</li>
+  <li><strong>Altération :</strong> Modification non autorisée de données</li>
+  <li><strong>Perte :</strong> Destruction accidentelle de données</li>
+  <li><strong>Ransomware :</strong> Chiffrement malveillant des systèmes</li>
+  <li><strong>Ingénierie sociale :</strong> Tentatives de manipulation du personnel</li>
+</ul>
+
+<h3>11.3 Communication en Cas d'Incident</h3>
+<div class="contact-box">
+  <h4>📞 Contacts d'Urgence Sécurité</h4>
+  <ul>
+    <li><strong>Hotline sécurité :</strong> +225 07 09 75 72 96 (24/7)</li>
+    <li><strong>Email urgent :</strong> <a href="mailto:security@instanly.com">security@instanly.com</a></li>
+    <li><strong>Responsable DPO :</strong> Mme. Sarah KOUAME</li>
+    <li><strong>RSSI :</strong> M. Emmanuel DAGO</li>
+  </ul>
+</div>
+
+<h2><span class="section-icon">🌍</span>12. Conformité Multi-Juridictionnelle</h2>
+
+<h3>12.1 Règlement Général sur la Protection des Données (RGPD)</h3>
+<ul>
+  <li><strong>Applicabilité :</strong> Utilisateurs résidant dans l'UE</li>
+  <li><strong>Représentant UE :</strong> GDPR-Rep.eu, Allemagne</li>
+  <li><strong>Autorité de contrôle :</strong> CNIL (France) - autorité chef de file</li>
+  <li><strong>Mécanisme de recours :</strong> Plainte gratuite auprès de la CNIL</li>
+</ul>
+
+<h3>12.2 California Consumer Privacy Act (CCPA)</h3>
+<ul>
+  <li><strong>Applicabilité :</strong> Résidents de Californie</li>
+  <li><strong>Droits spécifiques :</strong> "Do Not Sell", disclosure des ventes</li>
+  <li><strong>Toll-Free :</strong> 1-800-INSTANLY pour demandes CCPA</li>
+</ul>
+
+<h3>12.3 Loi sur la Protection des Données Personnelles (Côte d'Ivoire)</h3>
+<ul>
+  <li><strong>Autorité de contrôle :</strong> Autorité de Régulation des Télécommunications (ARTCI)</li>
+  <li><strong>Déclaration :</strong> Fichier déclaré sous le n° CI-ARTCI-2023-DP-001234</li>
+  <li><strong>Correspondant :</strong> DPO certifié AFNOR</li>
+</ul>
+
+<h3>12.4 Autres Réglementations Applicables</h3>
+<ul>
+  <li><strong>Nigeria (NDPR) :</strong> Conformité pour utilisateurs nigérians</li>
+  <li><strong>Kenya (DPA 2019) :</strong> Protection des données au Kenya</li>
+  <li><strong>Ghana (DPA 2012) :</strong> Réglementation ghanéenne</li>
+  <li><strong>UEMOA :</strong> Directives bancaires régionales</li>
+</ul>
+
+<h2><span class="section-icon">🔄</span>13. Mises à Jour de la Politique</h2>
+
+<h3>13.1 Versioning et Historique</h3>
+<ul>
+  <li><strong>Version actuelle :</strong> 3.0 (30 juin 2025)</li>
+  <li><strong>Version précédente :</strong> 2.1 (15 mars 2025)</li>
+  <li><strong>Prochaine révision prévue :</strong> Décembre 2025</li>
+  <li><strong>Archivage :</strong> Toutes versions disponibles sur demande</li>
+</ul>
+
+<h3>13.2 Processus de Modification</h3>
+<ol>
+  <li><strong>Analyse d'impact :</strong> Évaluation des changements réglementaires</li>
+  <li><strong>Consultation interne :</strong> Revue légale et technique</li>
+  <li><strong>Validation DPO :</strong> Conformité et cohérence</li>
+  <li><strong>Notification préalable :</strong> 30 jours avant entrée en vigueur</li>
+  <li><strong>Publication :</strong> Site web, application, email</li>
+</ol>
+
+<h3>13.3 Types de Modifications</h3>
+<div class="data-category">
+  <h4>Modifications Mineures (Notification Simple)</h4>
+  <ul>
+    <li>Corrections d'erreurs typographiques</li>
+    <li>Clarifications éditoriales</li>
+    <li>Mise à jour des coordonnées</li>
+  </ul>
+</div>
+
+<div class="data-category">
+  <h4>Modifications Majeures (Consentement Requis)</h4>
+  <ul>
+    <li>Nouvelles finalités de traitement</li>
+    <li>Nouveaux destinataires de données</li>
+    <li>Extension des durées de conservation</li>
+    <li>Nouvelles technologies de traitement</li>
+  </ul>
+</div>
+
+<h2><span class="section-icon">🎓</span>14. Glossaire et Définitions</h2>
+
+<div class="data-category">
+  <h3>Termes Techniques</h3>
+  <ul>
+    <li><strong>API :</strong> Interface de Programmation d'Application</li>
+    <li><strong>Chiffrement bout-en-bout :</strong> Protection des données du sender au receiver</li>
+    <li><strong>Hash :</strong> Empreinte numérique unique et irréversible</li>
+    <li><strong>Token :</strong> Jeton d'authentification temporaire</li>
+    <li><strong>UUID :</strong> Identifiant Unique Universel</li>
+  </ul>
+</div>
+
+<div class="data-category">
+  <h3>Termes Juridiques</h3>
+  <ul>
+    <li><strong>Données personnelles :</strong> Toute information relative à une personne identifiée ou identifiable</li>
+    <li><strong>Traitement :</strong> Toute opération sur des données personnelles</li>
+    <li><strong>Responsable de traitement :</strong> Entité qui détermine les finalités et moyens</li>
+    <li><strong>Sous-traitant :</strong> Entité qui traite pour le compte du responsable</li>
+    <li><strong>Pseudonymisation :</strong> Remplacement des identifiants directs</li>
+  </ul>
+</div>
+
+<div class="data-category">
+  <h3>Termes Financiers</h3>
+  <ul>
+    <li><strong>KYC :</strong> Know Your Customer (Connaissance Client)</li>
+    <li><strong>AML :</strong> Anti-Money Laundering (Anti-Blanchiment)</li>
+    <li><strong>CFT :</strong> Combating the Financing of Terrorism</li>
+    <li><strong>PSP :</strong> Payment Service Provider</li>
+    <li><strong>Mobile Money :</strong> Service de paiement via téléphone mobile</li>
+  </ul>
+</div>
+
+<div class="contact-box">
+  <h2><span class="section-icon">📩</span>15. Contacts et Réclamations</h2>
+
+  <h3>🛡️ Délégué à la Protection des Données (DPO)</h3>
+  <ul>
+    <li><strong>Nom :</strong> Madame Sarah KOUAME</li>
+    <li><strong>Certification :</strong> DPO AFNOR Certification</li>
+    <li><strong>Email direct :</strong> <a href="mailto:dpo@instanly.com">dpo@instanly.com</a></li>
+    <li><strong>Téléphone :</strong> +225 05 86 74 32 19</li>
+    <li><strong>Horaires :</strong> Lundi-Vendredi 8h-18h (GMT)</li>
+  </ul>
+
+  <h3>🏢 Service Juridique</h3>
+  <ul>
+    <li><strong>Cabinet :</strong> Étude KONE & Associés</li>
+    <li><strong>Email :</strong> <a href="mailto:legal@instanly.com">legal@instanly.com</a></li>
+    <li><strong>Adresse :</strong> Plateau, Tour ECOBANK, 28ème étage, Abidjan</li>
+  </ul>
+
+  <h3>🌍 Représentants Internationaux</h3>
+  <ul>
+    <li><strong>Union Européenne :</strong> GDPR-Rep.eu, Berlin, Allemagne</li>
+    <li><strong>États-Unis :</strong> Instanly Inc., Delaware</li>
+    <li><strong>Royaume-Uni :</strong> UK GDPR Services Ltd, Londres</li>
+  </ul>
+
+  <h3>⚖️ Autorités de Contrôle</h3>
+  <ul>
+    <li><strong>Côte d'Ivoire :</strong> ARTCI - <a href="mailto:info@artci.ci">info@artci.ci</a></li>
+    <li><strong>France/UE :</strong> CNIL - <a href="https://cnil.fr">cnil.fr</a></li>
+    <li><strong>Californie :</strong> California AG - <a href="https://oag.ca.gov">oag.ca.gov</a></li>
+  </ul>
+</div>
+
+<div class="important-notice">
+  <h2><span class="section-icon">❗</span>16. Clause de Non-Responsabilité et Limites</h2>
+  
+  <h3>🔄 Nature de nos Services</h3>
+  <p><strong>RAPPEL IMPORTANT :</strong> Instanly est un fournisseur de services technologiques et NON une institution financière. Nous ne détenons jamais les fonds des utilisateurs et n'offrons pas de services bancaires. Nous agissons exclusivement comme une plateforme d'interopérabilité qui connecte les utilisateurs aux prestataires de services financiers agréés.</p>
+
+  <h3>🏛️ Marques et Logos Partenaires</h3>
+  <p><strong>Propriété intellectuelle :</strong> Tous les logos et icônes représentant les opérateurs de mobile money (MTN, Orange, Moov, M-Pesa, Airtel, Wave, etc.) utilisés dans l'application et le site web Instanly sont la propriété de leurs détenteurs respectifs. Ils sont affichés uniquement pour indiquer l'interopérabilité et la compatibilité avec leurs services et n'impliquent aucune propriété, partenariat ou endorsement sauf mention explicite contraire.</p>
+
+  <h3>⚖️ Responsabilité des PSP</h3>
+  <p>Les prestataires de services de paiement (PSP) licenciés sont responsables de la détention, du débit et du crédit des fonds sous supervision réglementaire. Instanly ne peut être tenu responsable des décisions, politiques ou dysfonctionnements des PSP partenaires.</p>
+</div>
+
+<div class="footer-links">
+  <h3>🔗 Ressources Juridiques et Informations Complémentaires</h3>
+  
+  <a href="https://instanly.com/legal-info">📄 Informations Légales</a>
+  <a href="https://instanly.com/qui-sommes-nous">🏢 À Propos d'Instanly</a>
+  <a href="https://instanly.com/privacy">🔒 Politique de Confidentialité</a>
+  <a href="https://instanly.com/terms">📋 Conditions Générales</a>
+  <a href="https://instanly.com/cookies">🍪 Politique des Cookies</a>
+  <a href="https://instanly.com/legal">⚖️ Mentions Légales</a>
+  <a href="https://instanly.com/gdpr-rights">🛡️ Vos Droits RGPD</a>
+  <a href="https://instanly.com/data-processing">📊 Registre des Traitements</a>
+  <a href="https://instanly.com/security">🔐 Sécurité et Certification</a>
+  <a href="https://instanly.com/compliance">✅ Conformité Réglementaire</a>
+  <a href="https://instanly.com/partnerships">🤝 Partenariats Financiers</a>
+  <a href="https://instanly.com/transparency">📈 Rapport de Transparence</a>
+
+  <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 0.9em; color: #666;">
+    <p><strong>© 2025 Instanly SARL.</strong> Tous droits réservés.</p>
+    <p>Cette politique de confidentialité est disponible en français, anglais et langues locales sur <a href="https://instanly.com/privacy">instanly.com/privacy</a></p>
+    <p><strong>Document confidentiel.</strong> Toute reproduction ou diffusion non autorisée est interdite.</p>
+  </div>
+</div>
+
+</div>
 
 </body>
 </html>
